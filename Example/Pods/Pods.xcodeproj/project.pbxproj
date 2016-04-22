@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DE4A871CCA2485005419B2 /* TypeOutAnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DE4A861CCA2485005419B2 /* TypeOutAnimationLabel.swift */; };
+		1049227F64BCE9C2CBE6810300B81FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		15D8FE2FAA7095CB0017D53B9D4C3B77 /* TypeOutAnimationLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 453DF7B30869B1E71880D41E93CBDFB4 /* TypeOutAnimationLabel.bundle */; };
+		19BC17968EEA373D31BE3FD9CE5D8B68 /* Pods-TypeOutAnimationLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4242A4C57AB72B8662CAD5201F6B8E48 /* Pods-TypeOutAnimationLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9E8A25E8E895436841ACA5875C39D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6854CA732605F42CAE096F2D64EA5F4A /* TypeOutAnimationLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B804774AF764A5F4B5CA5E304FDF738 /* TypeOutAnimationLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72333167C5AAB52ECDCBC385FC06C34E /* Pods-TypeOutAnimationLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA82224EA53773E6183BF4D5D2EA49C /* Pods-TypeOutAnimationLabel_Example-dummy.m */; };
+		75DAC480B5771886DABDA4311E4C8675 /* Pods-TypeOutAnimationLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F20E9CE9B2B9DD4F8A8774711B88DE6 /* Pods-TypeOutAnimationLabel_Tests-dummy.m */; };
+		CED698A5176B7A59023EB33750BE75D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DAAA6F3472B816BB974C327CAD2B52D3 /* TypeOutAnimationLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36825756724A45897CADE6E4EA0BE35F /* TypeOutAnimationLabel-dummy.m */; };
+		E82E09ECC05FF37C431E2C964E44D723 /* Pods-TypeOutAnimationLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA9D169DAE6C19CA7CEB96CE2D19679 /* Pods-TypeOutAnimationLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C0DF207F83B962B095FA2DAD2EE2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786A68970491997897DF79400617BC1D;
+			remoteInfo = TypeOutAnimationLabel;
+		};
+		4931CDD67332DAC7E0615D69589B943C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786A68970491997897DF79400617BC1D;
+			remoteInfo = TypeOutAnimationLabel;
+		};
+		C6D1CCA5F616CA1D9A9A7CAC40BCC296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC9AD9141A2F84097EBC3C0C8B77176;
+			remoteInfo = "TypeOutAnimationLabel-TypeOutAnimationLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025881C6C29855F1793AEFB2058D5DD8 /* Pods-TypeOutAnimationLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TypeOutAnimationLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		02DE4A861CCA2485005419B2 /* TypeOutAnimationLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOutAnimationLabel.swift; sourceTree = "<group>"; };
+		0FA57D11152FF14FE83C0633E1074790 /* Pods-TypeOutAnimationLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TypeOutAnimationLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11B8D204C627DB0C076189F5ED10F2F8 /* TypeOutAnimationLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TypeOutAnimationLabel.modulemap; sourceTree = "<group>"; };
+		21C309E13DDA213ED64DE5401AED7717 /* Pods-TypeOutAnimationLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TypeOutAnimationLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36825756724A45897CADE6E4EA0BE35F /* TypeOutAnimationLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TypeOutAnimationLabel-dummy.m"; sourceTree = "<group>"; };
+		3B804774AF764A5F4B5CA5E304FDF738 /* TypeOutAnimationLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypeOutAnimationLabel-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4242A4C57AB72B8662CAD5201F6B8E48 /* Pods-TypeOutAnimationLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TypeOutAnimationLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		430A56772189667F98C32DB3CDC3A2A8 /* TypeOutAnimationLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TypeOutAnimationLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453DF7B30869B1E71880D41E93CBDFB4 /* TypeOutAnimationLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypeOutAnimationLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FAB08B8973C0EDCE2A01D5A4860DEA /* Pods-TypeOutAnimationLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TypeOutAnimationLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5DA9D169DAE6C19CA7CEB96CE2D19679 /* Pods-TypeOutAnimationLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TypeOutAnimationLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B33B3B1BBBFB1AD28A019DD66AD88C8 /* TypeOutAnimationLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TypeOutAnimationLabel-prefix.pch"; sourceTree = "<group>"; };
+		6CADF7A73A0B25BEA61787589C0A3E90 /* Pods-TypeOutAnimationLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TypeOutAnimationLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		7487067D7BFF221DBF8AF379226A8CEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6A5D09DBEE511EB3237BCF04CEDBD2 /* Pods-TypeOutAnimationLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TypeOutAnimationLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		8AA82224EA53773E6183BF4D5D2EA49C /* Pods-TypeOutAnimationLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TypeOutAnimationLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		8C05A0D9F95A608C952433155FB706E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB31F4B8FD0997556BBC44661C8BD11 /* Pods-TypeOutAnimationLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TypeOutAnimationLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91E44448FF9B1824A37035367E4C41CD /* Pods_TypeOutAnimationLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeOutAnimationLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A8E5C163D6FECB1DA86B265B4F6107 /* Pods-TypeOutAnimationLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TypeOutAnimationLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9AB0A2BDB363A9B5A0FADF94774E2FCE /* Pods_TypeOutAnimationLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeOutAnimationLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E97A585639629509A8B2A34C0BA95E2 /* Pods-TypeOutAnimationLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TypeOutAnimationLabel_Example.modulemap"; sourceTree = "<group>"; };
+		9F20E9CE9B2B9DD4F8A8774711B88DE6 /* Pods-TypeOutAnimationLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TypeOutAnimationLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TypeOutAnimationLabel.xcconfig; sourceTree = "<group>"; };
+		B1C1E1194BBFCC7C7BDA3271370C4A3A /* Pods-TypeOutAnimationLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TypeOutAnimationLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3CFF6491CA34DAF4F1C1A6A56135954 /* Pods-TypeOutAnimationLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TypeOutAnimationLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		E50FB8352ACB87E05A725336D7392812 /* Pods-TypeOutAnimationLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TypeOutAnimationLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEC239D11B84745D0D2CA60D3875A79A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F258FEE0029012B25DC56CD684D2E99B /* Pods-TypeOutAnimationLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TypeOutAnimationLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B3DBF5F180BEBBA3422FC62D494E48 /* Pods-TypeOutAnimationLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TypeOutAnimationLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DFE9A4712A1DDB766A8DAA6E3ED4DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9E8A25E8E895436841ACA5875C39D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58FE66A12DA43072D01BB6E6E555160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B8AAE2F6E0B6616833D75EE9D2023F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED698A5176B7A59023EB33750BE75D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95991C8BC7400B67AA6D629C0BAA6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1049227F64BCE9C2CBE6810300B81FFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC0471E10FDB5843308F8959E49119B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E89365B99806F376EF45ED8536539F0 /* TypeOutAnimationLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6296BED11F71D240C9C846648A731286 /* TypeOutAnimationLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D41CA384804523DA8CFBBD4887EC4 /* Classes */,
+			);
+			path = TypeOutAnimationLabel;
+			sourceTree = "<group>";
+		};
+		6E89365B99806F376EF45ED8536539F0 /* TypeOutAnimationLabel */ = {
+			isa = PBXGroup;
+			children = (
+				815C4525FBA375FFA2C34275F4CEDCD5 /* Support Files */,
+				6296BED11F71D240C9C846648A731286 /* TypeOutAnimationLabel */,
+			);
+			name = TypeOutAnimationLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1EC0471E10FDB5843308F8959E49119B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				83CB6B137496CB198014FBE8DBFB22DC /* Products */,
+				D29C938A1D26A2505B5AA88B38880ABA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815C4525FBA375FFA2C34275F4CEDCD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7487067D7BFF221DBF8AF379226A8CEB /* Info.plist */,
+				11B8D204C627DB0C076189F5ED10F2F8 /* TypeOutAnimationLabel.modulemap */,
+				A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */,
+				36825756724A45897CADE6E4EA0BE35F /* TypeOutAnimationLabel-dummy.m */,
+				6B33B3B1BBBFB1AD28A019DD66AD88C8 /* TypeOutAnimationLabel-prefix.pch */,
+				3B804774AF764A5F4B5CA5E304FDF738 /* TypeOutAnimationLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TypeOutAnimationLabel";
+			sourceTree = "<group>";
+		};
+		83CB6B137496CB198014FBE8DBFB22DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0A2BDB363A9B5A0FADF94774E2FCE /* Pods_TypeOutAnimationLabel_Example.framework */,
+				91E44448FF9B1824A37035367E4C41CD /* Pods_TypeOutAnimationLabel_Tests.framework */,
+				453DF7B30869B1E71880D41E93CBDFB4 /* TypeOutAnimationLabel.bundle */,
+				430A56772189667F98C32DB3CDC3A2A8 /* TypeOutAnimationLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0469462E88151356F4E0728C044FBDC /* Pods-TypeOutAnimationLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C05A0D9F95A608C952433155FB706E0 /* Info.plist */,
+				D3CFF6491CA34DAF4F1C1A6A56135954 /* Pods-TypeOutAnimationLabel_Tests.modulemap */,
+				0FA57D11152FF14FE83C0633E1074790 /* Pods-TypeOutAnimationLabel_Tests-acknowledgements.markdown */,
+				025881C6C29855F1793AEFB2058D5DD8 /* Pods-TypeOutAnimationLabel_Tests-acknowledgements.plist */,
+				9F20E9CE9B2B9DD4F8A8774711B88DE6 /* Pods-TypeOutAnimationLabel_Tests-dummy.m */,
+				94A8E5C163D6FECB1DA86B265B4F6107 /* Pods-TypeOutAnimationLabel_Tests-frameworks.sh */,
+				6CADF7A73A0B25BEA61787589C0A3E90 /* Pods-TypeOutAnimationLabel_Tests-resources.sh */,
+				4242A4C57AB72B8662CAD5201F6B8E48 /* Pods-TypeOutAnimationLabel_Tests-umbrella.h */,
+				F258FEE0029012B25DC56CD684D2E99B /* Pods-TypeOutAnimationLabel_Tests.debug.xcconfig */,
+				8FB31F4B8FD0997556BBC44661C8BD11 /* Pods-TypeOutAnimationLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TypeOutAnimationLabel_Tests";
+			path = "Target Support Files/Pods-TypeOutAnimationLabel_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0D41CA384804523DA8CFBBD4887EC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02DE4A861CCA2485005419B2 /* TypeOutAnimationLabel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD657323B6F420F6020948A7C0B2F52C /* Pods-TypeOutAnimationLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EEC239D11B84745D0D2CA60D3875A79A /* Info.plist */,
+				9E97A585639629509A8B2A34C0BA95E2 /* Pods-TypeOutAnimationLabel_Example.modulemap */,
+				E50FB8352ACB87E05A725336D7392812 /* Pods-TypeOutAnimationLabel_Example-acknowledgements.markdown */,
+				B1C1E1194BBFCC7C7BDA3271370C4A3A /* Pods-TypeOutAnimationLabel_Example-acknowledgements.plist */,
+				8AA82224EA53773E6183BF4D5D2EA49C /* Pods-TypeOutAnimationLabel_Example-dummy.m */,
+				57FAB08B8973C0EDCE2A01D5A4860DEA /* Pods-TypeOutAnimationLabel_Example-frameworks.sh */,
+				7F6A5D09DBEE511EB3237BCF04CEDBD2 /* Pods-TypeOutAnimationLabel_Example-resources.sh */,
+				5DA9D169DAE6C19CA7CEB96CE2D19679 /* Pods-TypeOutAnimationLabel_Example-umbrella.h */,
+				F5B3DBF5F180BEBBA3422FC62D494E48 /* Pods-TypeOutAnimationLabel_Example.debug.xcconfig */,
+				21C309E13DDA213ED64DE5401AED7717 /* Pods-TypeOutAnimationLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-TypeOutAnimationLabel_Example";
+			path = "Target Support Files/Pods-TypeOutAnimationLabel_Example";
+			sourceTree = "<group>";
+		};
+		D29C938A1D26A2505B5AA88B38880ABA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD657323B6F420F6020948A7C0B2F52C /* Pods-TypeOutAnimationLabel_Example */,
+				B0469462E88151356F4E0728C044FBDC /* Pods-TypeOutAnimationLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		897E15463EDC60F39964B3D9BF9B60DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82E09ECC05FF37C431E2C964E44D723 /* Pods-TypeOutAnimationLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EA384359529DFE319B8164B002033A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BC17968EEA373D31BE3FD9CE5D8B68 /* Pods-TypeOutAnimationLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB3ABDD54380579398E73F718C53A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6854CA732605F42CAE096F2D64EA5F4A /* TypeOutAnimationLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12BDBC07B6D1156EE039C857D65C2BD8 /* Pods-TypeOutAnimationLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53ED49D48609B9A9FFA75EA054CCD4F /* Build configuration list for PBXNativeTarget "Pods-TypeOutAnimationLabel_Example" */;
+			buildPhases = (
+				E526566D23CA849AA599E8AA5C73BDB1 /* Sources */,
+				F7B8AAE2F6E0B6616833D75EE9D2023F /* Frameworks */,
+				897E15463EDC60F39964B3D9BF9B60DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635130DA6D53E302A3D2F7F4A0A9D1AA /* PBXTargetDependency */,
+			);
+			name = "Pods-TypeOutAnimationLabel_Example";
+			productName = "Pods-TypeOutAnimationLabel_Example";
+			productReference = 9AB0A2BDB363A9B5A0FADF94774E2FCE /* Pods_TypeOutAnimationLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FC9AD9141A2F84097EBC3C0C8B77176 /* TypeOutAnimationLabel-TypeOutAnimationLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544323B9827A17127F1FBFBC02C4016D /* Build configuration list for PBXNativeTarget "TypeOutAnimationLabel-TypeOutAnimationLabel" */;
+			buildPhases = (
+				5BC770AE3F797721CFE68296FC5A4EB8 /* Sources */,
+				F58FE66A12DA43072D01BB6E6E555160 /* Frameworks */,
+				5EF3207F6438F5B272847D40F9617E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TypeOutAnimationLabel-TypeOutAnimationLabel";
+			productName = "TypeOutAnimationLabel-TypeOutAnimationLabel";
+			productReference = 453DF7B30869B1E71880D41E93CBDFB4 /* TypeOutAnimationLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3E1EFA70C14A6A2ABF73E2E0EE8A84BF /* Pods-TypeOutAnimationLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC52AEACFB3150AE77E6C3F9D5EB0CF5 /* Build configuration list for PBXNativeTarget "Pods-TypeOutAnimationLabel_Tests" */;
+			buildPhases = (
+				9E16E15E979BC663BED74080624E2318 /* Sources */,
+				8DFE9A4712A1DDB766A8DAA6E3ED4DBC /* Frameworks */,
+				92EA384359529DFE319B8164B002033A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEDBAB52D9FE10E898EBDE514CFFC144 /* PBXTargetDependency */,
+			);
+			name = "Pods-TypeOutAnimationLabel_Tests";
+			productName = "Pods-TypeOutAnimationLabel_Tests";
+			productReference = 91E44448FF9B1824A37035367E4C41CD /* Pods_TypeOutAnimationLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		786A68970491997897DF79400617BC1D /* TypeOutAnimationLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518BBF502F74B0772D2A0A19278C3713 /* Build configuration list for PBXNativeTarget "TypeOutAnimationLabel" */;
+			buildPhases = (
+				C2C658AEC56F606F71D9812A35D32D93 /* Sources */,
+				F95991C8BC7400B67AA6D629C0BAA6CA /* Frameworks */,
+				56F62EAE2AA2347A283C9E52095CE7A5 /* Resources */,
+				BEAB3ABDD54380579398E73F718C53A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28572835497283F0B6CA9C1F4462E0E7 /* PBXTargetDependency */,
+			);
+			name = TypeOutAnimationLabel;
+			productName = TypeOutAnimationLabel;
+			productReference = 430A56772189667F98C32DB3CDC3A2A8 /* TypeOutAnimationLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83CB6B137496CB198014FBE8DBFB22DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12BDBC07B6D1156EE039C857D65C2BD8 /* Pods-TypeOutAnimationLabel_Example */,
+				3E1EFA70C14A6A2ABF73E2E0EE8A84BF /* Pods-TypeOutAnimationLabel_Tests */,
+				786A68970491997897DF79400617BC1D /* TypeOutAnimationLabel */,
+				2FC9AD9141A2F84097EBC3C0C8B77176 /* TypeOutAnimationLabel-TypeOutAnimationLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F62EAE2AA2347A283C9E52095CE7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D8FE2FAA7095CB0017D53B9D4C3B77 /* TypeOutAnimationLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF3207F6438F5B272847D40F9617E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC770AE3F797721CFE68296FC5A4EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E16E15E979BC663BED74080624E2318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DAC480B5771886DABDA4311E4C8675 /* Pods-TypeOutAnimationLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C658AEC56F606F71D9812A35D32D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAA6F3472B816BB974C327CAD2B52D3 /* TypeOutAnimationLabel-dummy.m in Sources */,
+				02DE4A871CCA2485005419B2 /* TypeOutAnimationLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E526566D23CA849AA599E8AA5C73BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72333167C5AAB52ECDCBC385FC06C34E /* Pods-TypeOutAnimationLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28572835497283F0B6CA9C1F4462E0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TypeOutAnimationLabel-TypeOutAnimationLabel";
+			target = 2FC9AD9141A2F84097EBC3C0C8B77176 /* TypeOutAnimationLabel-TypeOutAnimationLabel */;
+			targetProxy = C6D1CCA5F616CA1D9A9A7CAC40BCC296 /* PBXContainerItemProxy */;
+		};
+		635130DA6D53E302A3D2F7F4A0A9D1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TypeOutAnimationLabel;
+			target = 786A68970491997897DF79400617BC1D /* TypeOutAnimationLabel */;
+			targetProxy = 4931CDD67332DAC7E0615D69589B943C /* PBXContainerItemProxy */;
+		};
+		EEDBAB52D9FE10E898EBDE514CFFC144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TypeOutAnimationLabel;
+			target = 786A68970491997897DF79400617BC1D /* TypeOutAnimationLabel */;
+			targetProxy = 30C0DF207F83B962B095FA2DAD2EE2EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B6CAF5734CFF1870EEBA91B08611EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TypeOutAnimationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		25C64EE0560EAA418F62F969DB31AA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TypeOutAnimationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		568B8462A9CAFC77ED2A8BC184B89BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TypeOutAnimationLabel/TypeOutAnimationLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TypeOutAnimationLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TypeOutAnimationLabel/TypeOutAnimationLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TypeOutAnimationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		889915C4F5D00455D1FCDC50EECBE3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C309E13DDA213ED64DE5401AED7717 /* Pods-TypeOutAnimationLabel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Example/Pods-TypeOutAnimationLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TypeOutAnimationLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4DE77443185A5595276D3786FBA9401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A50AFD2CC1269FD2F0499621DEE65529 /* TypeOutAnimationLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TypeOutAnimationLabel/TypeOutAnimationLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TypeOutAnimationLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TypeOutAnimationLabel/TypeOutAnimationLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TypeOutAnimationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6D317DF842B6F748760BAE3F6C8AB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B3DBF5F180BEBBA3422FC62D494E48 /* Pods-TypeOutAnimationLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Example/Pods-TypeOutAnimationLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TypeOutAnimationLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F95BA8503422185AB77E77264A9AEEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F258FEE0029012B25DC56CD684D2E99B /* Pods-TypeOutAnimationLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Tests/Pods-TypeOutAnimationLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TypeOutAnimationLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE870D6435457FD18B06443153C3F615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB31F4B8FD0997556BBC44661C8BD11 /* Pods-TypeOutAnimationLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TypeOutAnimationLabel_Tests/Pods-TypeOutAnimationLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TypeOutAnimationLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518BBF502F74B0772D2A0A19278C3713 /* Build configuration list for PBXNativeTarget "TypeOutAnimationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568B8462A9CAFC77ED2A8BC184B89BAA /* Debug */,
+				C4DE77443185A5595276D3786FBA9401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544323B9827A17127F1FBFBC02C4016D /* Build configuration list for PBXNativeTarget "TypeOutAnimationLabel-TypeOutAnimationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6CAF5734CFF1870EEBA91B08611EEF /* Debug */,
+				25C64EE0560EAA418F62F969DB31AA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC52AEACFB3150AE77E6C3F9D5EB0CF5 /* Build configuration list for PBXNativeTarget "Pods-TypeOutAnimationLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95BA8503422185AB77E77264A9AEEE0 /* Debug */,
+				FE870D6435457FD18B06443153C3F615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53ED49D48609B9A9FFA75EA054CCD4F /* Build configuration list for PBXNativeTarget "Pods-TypeOutAnimationLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D317DF842B6F748760BAE3F6C8AB3B /* Debug */,
+				889915C4F5D00455D1FCDC50EECBE3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - TypeOutAnimationLabel (0.1.0)
+
+DEPENDENCIES:
+  - TypeOutAnimationLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TypeOutAnimationLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TypeOutAnimationLabel: 6009ad71384e851e0839718c8ca07d928a929296
+
+COCOAPODS: 0.39.0

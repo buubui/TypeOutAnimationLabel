@@ -1,0 +1,6 @@
+framework module Pods_TypeOutAnimationLabel_Tests {
+  umbrella header "Pods-TypeOutAnimationLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
