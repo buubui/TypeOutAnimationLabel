@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TypeOutAnimationLabel_Example', :exclusive => true do
+  pod 'TypeOutAnimationLabel', :path => '../'
+end
+
+target 'TypeOutAnimationLabel_Tests', :exclusive => true do
+  pod 'TypeOutAnimationLabel', :path => '../'
+
+  
+end
