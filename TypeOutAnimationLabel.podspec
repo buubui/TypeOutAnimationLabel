@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-An UILabel with type out animation, inspired from https://connoratherton.com/typeout 
+An UILabel with type out animation, inspired from https://connoratherton.com/typeout
                        DESC
 
   s.homepage         = "https://github.com/buubui/TypeOutAnimationLabel"
-  s.screenshots     = "https://cloud.githubusercontent.com/assets/5128246/14739286/cd08d298-08b0-11e6-8380-b1b81dc368ad.gif"
+  s.screenshots     = "https://cloud.githubusercontent.com/assets/5128246/14758910/4701a984-0939-11e6-8f92-75cdd3a123b0.gif"
   s.license          = 'MIT'
   s.author           = { "Buu Bui" => "github.com/buubui" }
   s.source           = { :git => "https://github.com/buubui/TypeOutAnimationLabel.git", :tag => s.version.to_s }
