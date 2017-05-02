@@ -30,7 +30,7 @@ public class TypeOutAnimationLabel: UILabel {
     fixedChars = fixedString.string.characters.map {String($0)}
     currentReplacableIndex = 0
     currentIndex = 0
-    initReplacableStringAtIndex(currentReplacableIndex)
+    initReplacableStringAtIndex(index: currentReplacableIndex)
   }
 
   private func initReplacableStringAtIndex(index: Int) {
@@ -52,7 +52,7 @@ public class TypeOutAnimationLabel: UILabel {
         currentIndex -= 1
       } else {
         currentReplacableIndex += 1
-        initReplacableStringAtIndex(currentReplacableIndex)
+        initReplacableStringAtIndex(index: currentReplacableIndex)
       }
     }
   }
@@ -70,47 +70,47 @@ public class TypeOutAnimationLabel: UILabel {
   }
 
   var currentFixedString: NSAttributedString {
-    let index = [currentIndex, fixedChars.count].minElement()!
-    return fixedString.attributedSubstringFromRange(NSRange(location: 0, length: index))
+    let index = [currentIndex, fixedChars.count].min()!
+    return fixedString.attributedSubstring(from: NSRange(location: 0, length: index))
   }
 
   var currentReplacableString: NSAttributedString? {
-    let index = [currentIndex + 1 - fixedChars.count, currentReplacableChars.count].minElement()!
+    let index = [currentIndex + 1 - fixedChars.count, currentReplacableChars.count].min()!
     if index <= 0 {
       return nil
     }
 
-    return replacableStrings[currentReplacableIndex].attributedSubstringFromRange(NSRange(location: 0, length: index))
+    return replacableStrings[currentReplacableIndex].attributedSubstring(from: NSRange(location: 0, length: index))
   }
 
   func computeText() -> NSAttributedString {
     let text = NSMutableAttributedString(attributedString: currentFixedString)
     if let replacableString = currentReplacableString {
-      text.appendAttributedString(replacableString)
+      text.append(replacableString)
     }
     return text
   }
 
-  override public func drawRect(rect: CGRect) {
+  override public func draw(_ rect: CGRect) {
     attributedText = computeText()
-    super.drawRect(rect)
+    super.draw(rect)
   }
 
-  public func animationWithFixedString(fixedString: NSAttributedString, replacableStrings: [NSAttributedString], typeSpeed: NSTimeInterval, delay: NSTimeInterval, completion: (() -> Void)?) {
+  public func animationWithFixedString(fixedString: NSAttributedString, replacableStrings: [NSAttributedString], typeSpeed: TimeInterval, delay: TimeInterval, completion: (() -> Void)?) {
     self.fixedString = fixedString
     self.replacableStrings = replacableStrings
     reset()
     animation(typeSpeed: typeSpeed, delay: delay, completion: completion)
   }
 
-  func animation(typeSpeed typeSpeed: NSTimeInterval, delay: NSTimeInterval, completion: (() -> Void)?) {
+  func animation(typeSpeed: TimeInterval, delay: TimeInterval, completion: (() -> Void)?) {
     if currentIndex == fixedChars.count && status == .Forward {
-      NSThread.sleepForTimeInterval(delay)
+      Thread.sleep(forTimeInterval: delay)
     }
-    UIView.animateWithDuration(typeSpeed, delay: delay, options: .CurveEaseInOut, animations: {
+    UIView.animate(withDuration: typeSpeed, delay: delay, options: .curveEaseInOut, animations: {
       self.setNeedsDisplay()
     }) { _ in
-      NSThread.sleepForTimeInterval(typeSpeed)
+      Thread.sleep(forTimeInterval: typeSpeed)
       self.next()
       if self.canAnimateNext() {
         self.animation(typeSpeed: typeSpeed, delay: delay, completion: completion)
